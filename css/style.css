@@ -1,0 +1,19 @@
+@media only screen and (max-width: 576px) {
+  .reverse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .convention-mg-top {
+    margin-top: 20px;
+  }
+  .center-convention {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-center-convention {
+    text-align: center;
+  }
+}

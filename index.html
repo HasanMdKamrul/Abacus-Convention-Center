@@ -16,6 +16,7 @@
       src="https://kit.fontawesome.com/f43c8ff667.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <!-- ** Navbar -->
@@ -350,7 +351,7 @@
       </section>
       <section class="container">
         <div class="row gy-5">
-            <div class="col-md-6 col-12">
+            <div class="col-md-6 col-lg-6 col-sm-12 order-last order-lg-first">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingOne">
@@ -390,19 +391,27 @@
                     </div>
                   </div>
             </div>
-            <div class="col-md-6 col-12">
+            <div class="col-md-6 col-sm-12 col-lg-6">
                 <img class="img-fluid" src="./images/people.png" alt="">
             </div>
         </div>
       </section>
     </main>
-    <footer class="footer bg-dark p-5 mt-5">
-      copyright@2022
-      Get The App
-      <img src="./App.png" alt="">
-      <img src="./Google .png" alt="">
     
-  </footer>
+    <footer class="container-fluid bg-dark p-5 mt-5 center-convention">
+      <div class="row text-light reverse">
+        <div class="col-lg-8 col-sm-12 convention-mg-top">
+          <p class="text-center-convention"><small>© 2020 bike. All rights reserved</small></p>
+        </div>
+        <div class="col-lg-4 col-sm-12 flex justify-content-center align-items-center">
+          <div>
+            <p>Get the App</p>
+            <img class="img-fluid d-block mb-2" src="./App.png" alt="">
+            <img class="img-fluid d-block" src="./Google .png" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- ***** JS Script tag for Bootstrap -->
     <script
